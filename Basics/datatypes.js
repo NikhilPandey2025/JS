@@ -12,8 +12,24 @@ boolean = true,false
 null 
 undefined
 symbol = unique
+BigInt
 */
 
 //object 
 
 console.log(typeof age)
+
+/* Reference Type
+    
+Array
+Object
+Function
+
+*/
+const heros =["herculis","naga"]
+
+let myObj={
+    name:"nikhil",
+    age:22,
+
+}

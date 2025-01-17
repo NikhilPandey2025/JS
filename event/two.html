@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Nikhil Kant Pandey </h1>
+    <button id="stop "> Stop </button>
+</body>
+
+<script>
+    // setTimeout(function () {
+    //     console.log("hitesh");
+        
+    // },2000)
+
+
+    const say= function () {
+        console.log("hitesh");
+        
+    }
+    // document.querySelector('h1').innerHTML="best javascript complete"
+
+    //  const innerhtml = setTimeout(function() {
+    //     console.log (document.querySelector('h1').innerHTML="best javascript complete");
+    //  },2000)
+
+     
+
+
+  const change =   setTimeout(say,2000)
+document.querySelector('#stop').addEventListener('click',function() {
+    clearTimeout(change)
+    console.log("stopped");
+    
+})
+
+
+</script>
+</html>
